@@ -8,6 +8,7 @@ export const AppInput = ({ label, type, title }) => (
           type={type}
           helperText={title}
           fullWidth
+          {...props}
         />
   </div>
 );
